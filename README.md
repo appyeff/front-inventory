@@ -35,3 +35,6 @@ $ ng g c modules/dashboard/pages/dashboard --flat
 $ ng g c modules/dashboard/components/home
 
 $ ng g m modules/dashboard/dashboard --flat
+
+$ ng g m modules/category/category --flat
+$ ng g c modules/category/components/category

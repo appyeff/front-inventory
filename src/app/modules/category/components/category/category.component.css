@@ -2,13 +2,17 @@ table {
     width: 100%;
 }
 
+ul li {
+    list-style: none;
+}
+
 .alinear {
     text-align: center;
     margin-top: 20px;
 }
 
-ul li {
-    list-style: none;
+.rigth{
+    margin-left: auto;
 }
 
 mat-form-field {
@@ -16,6 +20,6 @@ mat-form-field {
 }
 
 .mat-cell:nth-child(1),
-.mat-header-cell: :nth-child(1) {
+.mat-header-cell:nth-child(1) {
     flex: 0 0 6%;
 }

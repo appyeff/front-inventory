@@ -2,15 +2,16 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MaterialModule } from './material.module';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
-import { FlexLayoutModule } from '@angular/flex-layout';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
+import { ConfirmComponent } from './components/confirm/confirm.component';
 
 
 
 @NgModule({
   declarations: [
-    SidenavComponent
+    SidenavComponent,
+    ConfirmComponent
   ],
   exports: [
     SidenavComponent
@@ -18,7 +19,6 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     CommonModule,
     RouterModule,
-    FlexLayoutModule,
     MaterialModule,
     HttpClientModule
   ]
